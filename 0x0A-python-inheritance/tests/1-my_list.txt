@@ -65,4 +65,11 @@ Original list unchanged:
 
 List already in order:
     >>> ml = MyList([-10, 0, 1, 2, 10, 20, 100])
-    >>> ml.print_sor
+    >>> ml.print_sorted()
+    [-10, 0, 1, 2, 10, 20, 100]
+
+Test append:
+    >>> ml = MyList()
+    >>> ml.append(10)
+    >>> ml
+    [10]
